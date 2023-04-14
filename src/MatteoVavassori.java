@@ -57,7 +57,7 @@ public class MatteoVavassori
 			}
 
 		}
-	}
+	}//Colucci: bisognava indovinare una parola entro 3 tentativi!
 	static void stampapari()
 	{
 		int [] v = new int [20];
@@ -119,6 +119,10 @@ public class MatteoVavassori
 		{
 			v[i] = (int) ((Math.random()*100)+1);
 		}
+		for (int i =0; i<v.length; i++)
+		{
+			System.out.println(v[i]);
+		}
 		for (int i=0; i<v.length; i++)
 		{	
 			if(v[i] % inc == 0)
@@ -129,12 +133,14 @@ public class MatteoVavassori
 					a[j] = aum;	
 					inc ++;
 				}
+				
 			}
+			
 		}
 		for (int i=0; i<a.length; i++)
 			System.out.println(a[i]);
 
-	}
+	}//Colucci: Eri vicino alla soluzione, bisognava solo capire quando incrementare il divisore.
 	static void ugualiconsecutivi()
 	{
 		int [] v = new int [20];
@@ -158,7 +164,7 @@ public class MatteoVavassori
 		}
 
 
-	}
+	}//non hai centrato assolutamente la consegna
 
 
 
