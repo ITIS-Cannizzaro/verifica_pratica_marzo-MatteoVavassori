@@ -164,7 +164,7 @@ public class MatteoVavassori
 		}
 
 
-	}//Colucci: non hai centrato assolutamente la consegna
+	}//Colucci: Non hai pienamente centrato la consegna anche se eri vicino.
 
 
 
